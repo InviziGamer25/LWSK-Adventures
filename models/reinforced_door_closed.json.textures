@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "reinforced_door_steel",
+        "1": "reinforced_door_warning_tape"
+      },
+      "name": "default"
+    }
+  }
+}

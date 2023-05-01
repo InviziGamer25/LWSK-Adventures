@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "lwsk:blocks/office_door_bottom",
+    "top": "lwsk:blocks/office_door_top"
+  }
+}

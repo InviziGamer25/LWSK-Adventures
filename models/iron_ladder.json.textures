@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "steel": {
+      "map": {
+        "0": "steel_ladder"
+      },
+      "name": "steel"
+    },
+    "default": {
+      "map": {
+        "0": "iron_ladder"
+      },
+      "name": "default"
+    }
+  }
+}

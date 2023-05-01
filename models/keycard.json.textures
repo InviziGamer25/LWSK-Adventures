@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "keycard_researcher"
+      },
+      "name": "default"
+    },
+    "security": {
+      "map": {
+        "0": "keycard_security"
+      },
+      "name": "security"
+    },
+    "facility_manager": {
+      "map": {
+        "0": "keycard_facility_manager"
+      },
+      "name": "facility_manager"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "floor_d",
+        "1": "reinforced_door_steel_working",
+        "2": "reinforced_door_warning_tape"
+      },
+      "name": "default"
+    }
+  }
+}

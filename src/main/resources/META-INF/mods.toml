@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="lwsk"
+version="1.0.0"
+displayName="LWSK Adventures Mod"
+credits="LWSK Adventures made by Incredible Games Corporation"
+displayURL="https://mcreator.net"
+authors="IGC, InviziGamer"
+description='''
+LWSK Adventures is a Map and Mod that comes with a bunch of missions with puzzles, infiltration, war scenaries, and much more...
+'''
+
+[[dependencies.lwsk]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

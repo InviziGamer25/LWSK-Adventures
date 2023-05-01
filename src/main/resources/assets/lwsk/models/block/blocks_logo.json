@@ -1,0 +1,8 @@
+{
+  "parent": "lwsk:custom/iron_ladder",
+  "textures": {
+    "all": "lwsk:blocks/steel_ladder",
+    "particle": "lwsk:blocks/steel_ladder",
+    "0": "lwsk:blocks/steel_ladder"
+  }
+}

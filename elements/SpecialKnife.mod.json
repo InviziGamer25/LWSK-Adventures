@@ -1,0 +1,34 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_knife",
+    "customModelName": "Normal",
+    "name": "Special Knife",
+    "specialInfo": [
+      "============",
+      "Tier 3",
+      "Fire Ability"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:LWSKAdventuresItems"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 1.0,
+    "attackSpeed": 2.0,
+    "enchantability": 0,
+    "damageVsEntity": 6.5,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "SpecialKnifeToolInInventoryTick"
+    }
+  }
+}

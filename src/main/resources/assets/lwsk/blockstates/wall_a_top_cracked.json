@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lwsk:block/wall_a_top_cracked"
+    },
+    "facing=east": {
+      "model": "lwsk:block/wall_a_top_cracked",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lwsk:block/wall_a_top_cracked",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lwsk:block/wall_a_top_cracked",
+      "y": 270
+    }
+  }
+}

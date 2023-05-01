@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "lwsk:blocks/floor_c",
+    "top": "lwsk:blocks/floor_c",
+    "side": "lwsk:blocks/floor_c"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "lwsk:custom/keycard",
+  "textures": {
+    "0": "lwsk:blocks/keycard_researcher",
+    "particle": "lwsk:items/keycard_researcher"
+  }
+}

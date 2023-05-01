@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "office_door_bottom",
+        "1": "office_door_top"
+      },
+      "name": "default"
+    }
+  }
+}

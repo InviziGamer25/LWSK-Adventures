@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "anvil",
+        "1": "yellow_stained_glass"
+      },
+      "name": "default"
+    },
+    "broken": {
+      "map": {
+        "0": "anvil",
+        "1": "broken_lamp"
+      },
+      "name": "broken"
+    }
+  }
+}

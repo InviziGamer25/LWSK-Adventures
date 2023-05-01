@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "lwsk:blocks/floor_b",
+    "top": "lwsk:blocks/floor_b",
+    "side": "lwsk:blocks/floor_b"
+  }
+}

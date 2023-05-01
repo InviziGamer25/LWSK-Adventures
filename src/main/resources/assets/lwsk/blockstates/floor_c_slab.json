@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lwsk:block/floor_c_slab"
+    },
+    "type=top": {
+      "model": "lwsk:block/floor_c_slab_top"
+    },
+    "type=double": {
+      "model": "lwsk:block/floor_c_slab_full"
+    }
+  }
+}

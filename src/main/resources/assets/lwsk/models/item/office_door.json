@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lwsk:blocks/office_door_bottom"
+  }
+}

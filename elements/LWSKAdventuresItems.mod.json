@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "LWSK Adventures Arsenal",
+    "icon": {
+      "value": "CUSTOM:ArsenalLogo"
+    },
+    "showSearch": false
+  }
+}

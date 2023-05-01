@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lwsk:block/wall_a_door_top"
+    },
+    "facing=east": {
+      "model": "lwsk:block/wall_a_door_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lwsk:block/wall_a_door_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lwsk:block/wall_a_door_top",
+      "y": 270
+    }
+  }
+}

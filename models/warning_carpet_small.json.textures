@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "warning_carpet"
+      },
+      "name": "default"
+    }
+  }
+}

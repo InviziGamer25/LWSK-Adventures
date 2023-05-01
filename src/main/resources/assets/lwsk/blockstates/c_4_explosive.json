@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lwsk:block/c_4_explosive"
+    },
+    "facing=east": {
+      "model": "lwsk:block/c_4_explosive",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lwsk:block/c_4_explosive",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lwsk:block/c_4_explosive",
+      "y": 270
+    }
+  }
+}

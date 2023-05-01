@@ -1,0 +1,9 @@
+{
+  "parent": "lwsk:custom/lamp",
+  "textures": {
+    "all": "lwsk:blocks/broken_lamp",
+    "particle": "lwsk:blocks/broken_lamp",
+    "0": "lwsk:blocks/anvil",
+    "1": "lwsk:blocks/broken_lamp"
+  }
+}
