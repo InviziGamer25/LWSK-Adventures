@@ -2,26 +2,25 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "floor_d",
-    "textureTop": "floor_d",
-    "textureLeft": "floor_d",
-    "textureFront": "floor_d",
-    "textureRight": "floor_d",
-    "textureBack": "floor_d",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "wall_bottom",
+    "textureTop": "wall_a_top_broken",
+    "textureLeft": "wall_a_bottom_broken",
+    "textureFront": "wall_a_bottom_broken",
+    "textureRight": "wall_a_bottom_broken",
+    "textureBack": "wall_a_bottom_broken",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -34,10 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Floor Stairs",
+    "name": "Office Wall Bottom Cracked",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 5.0,
+    "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -45,9 +44,9 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -55,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -80,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +97,7 @@
       "value": ""
     },
     "luminance": 0,
-    "unbreakable": true,
+    "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,

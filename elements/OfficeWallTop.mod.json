@@ -2,12 +2,12 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "floor_d",
-    "textureTop": "floor_d",
-    "textureLeft": "floor_d",
-    "textureFront": "floor_d",
-    "textureRight": "floor_d",
-    "textureBack": "floor_d",
+    "texture": "wall_a_top",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -16,12 +16,11 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -34,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Floor Stairs",
+    "name": "Office Wall Top",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -55,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -80,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""

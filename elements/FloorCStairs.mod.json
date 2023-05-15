@@ -2,12 +2,12 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "floor_d",
-    "textureTop": "floor_d",
-    "textureLeft": "floor_d",
-    "textureFront": "floor_d",
-    "textureRight": "floor_d",
-    "textureBack": "floor_d",
+    "texture": "floor_c",
+    "textureTop": "floor_c",
+    "textureLeft": "floor_c",
+    "textureFront": "floor_c",
+    "textureRight": "floor_c",
+    "textureBack": "floor_c",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -19,9 +19,9 @@
     "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -34,7 +34,7 @@
         "subtract": false
       }
     ],
-    "name": "Floor Stairs",
+    "name": "Floor C Stairs",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -55,7 +55,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -80,7 +80,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""

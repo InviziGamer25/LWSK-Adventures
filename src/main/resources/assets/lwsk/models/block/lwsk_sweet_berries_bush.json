@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "lwsk:blocks/sweet_berry_bush_stage3",
-    "particle": "lwsk:blocks/sweet_berry_bush_stage3"
-  }
-}

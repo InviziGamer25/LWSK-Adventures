@@ -1,8 +1,0 @@
-{
-  "parent": "lwsk:custom/office_table",
-  "textures": {
-    "all": "lwsk:blocks/office_table_main",
-    "particle": "lwsk:blocks/office_table_main",
-    "0": "lwsk:blocks/office_table_main"
-  }
-}

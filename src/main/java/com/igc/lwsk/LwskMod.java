@@ -33,7 +33,6 @@ import java.util.function.BiConsumer;
 import com.igc.lwsk.init.LwskModTabs;
 import com.igc.lwsk.init.LwskModItems;
 import com.igc.lwsk.init.LwskModBlocks;
-import com.igc.lwsk.init.LwskModBlockEntities;
 
 @Mod("lwsk")
 public class LwskMod {
@@ -48,8 +47,6 @@ public class LwskMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		LwskModBlocks.REGISTRY.register(bus);
 		LwskModItems.REGISTRY.register(bus);
-
-		LwskModBlockEntities.REGISTRY.register(bus);
 
 	}
 

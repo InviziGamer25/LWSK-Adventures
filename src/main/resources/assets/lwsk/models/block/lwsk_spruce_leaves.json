@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "lwsk:blocks/spruce_leaves",
-    "particle": "lwsk:blocks/spruce_leaves"
-  }
-}

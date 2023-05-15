@@ -4,10 +4,10 @@
   "definition": {
     "texture": "floor_c",
     "textureTop": "floor_c",
-    "textureLeft": "",
+    "textureLeft": "floor_c",
     "textureFront": "floor_c",
-    "textureRight": "",
-    "textureBack": "",
+    "textureRight": "floor_c",
+    "textureBack": "floor_c",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,

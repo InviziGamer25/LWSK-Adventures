@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "lwsk:blocks/floor_c",
+    "down": "lwsk:blocks/floor_c",
+    "up": "lwsk:blocks/floor_c",
+    "north": "lwsk:blocks/floor_c",
+    "east": "lwsk:blocks/floor_c",
+    "south": "lwsk:blocks/floor_c",
+    "west": "lwsk:blocks/floor_c",
     "particle": "lwsk:blocks/floor_c"
   }
 }

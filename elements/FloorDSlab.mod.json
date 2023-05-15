@@ -34,12 +34,12 @@
         "subtract": false
       }
     ],
-    "name": "Floor D Slab",
+    "name": "Floor Slab",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:LWSKAdventuresBuilding"
     },

@@ -1,7 +1,0 @@
-{
-  "parent": "lwsk:custom/keycard",
-  "textures": {
-    "0": "lwsk:blocks/keycard_security",
-    "particle": "lwsk:items/keycard_security"
-  }
-}

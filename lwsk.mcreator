@@ -118,7 +118,7 @@
     {
       "name": "FloorB",
       "type": "block",
-      "sortid": 4,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "floor_b",
@@ -134,7 +134,7 @@
     {
       "name": "FloorBStairs",
       "type": "block",
-      "sortid": 5,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "floor_b_stairs",
@@ -152,7 +152,7 @@
     {
       "name": "FloorBSlab",
       "type": "block",
-      "sortid": 6,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "floor_b_slab",
@@ -170,7 +170,7 @@
     {
       "name": "FloorC",
       "type": "block",
-      "sortid": 7,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "floor_c",
@@ -184,15 +184,15 @@
       }
     },
     {
-      "name": "FloorCStair",
+      "name": "FloorCStairs",
       "type": "block",
-      "sortid": 8,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "floor_c_stairs",
       "metadata": {
         "files": [
-          "src/main/java/com/igc/lwsk/block/FloorCStairBlock.java",
+          "src/main/java/com/igc/lwsk/block/FloorCStairsBlock.java",
           "src/main/resources/assets/lwsk/models/block/floor_c_stairs_inner.json",
           "src/main/resources/assets/lwsk/models/block/floor_c_stairs_outer.json",
           "src/main/resources/assets/lwsk/blockstates/floor_c_stairs.json",
@@ -204,7 +204,7 @@
     {
       "name": "FloorCSlab",
       "type": "block",
-      "sortid": 9,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "floor_c_slab",
@@ -222,7 +222,7 @@
     {
       "name": "FloorD",
       "type": "block",
-      "sortid": 10,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "floor_d",
@@ -238,7 +238,7 @@
     {
       "name": "FloorDStairs",
       "type": "block",
-      "sortid": 11,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "floor_d_stairs",
@@ -256,7 +256,7 @@
     {
       "name": "FloorDSlab",
       "type": "block",
-      "sortid": 12,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "floor_d_slab",
@@ -272,783 +272,146 @@
       }
     },
     {
-      "name": "WallABootom",
+      "name": "OfficeWallBottom",
       "type": "block",
-      "sortid": 13,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wall_a_bootom",
+      "registry_name": "office_wall_bottom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lwsk/models/block/wall_a_bootom.json",
-          "src/main/resources/assets/lwsk/models/item/wall_a_bootom.json",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_bootom.json",
-          "src/main/java/com/igc/lwsk/block/WallABootomBlock.java"
+          "src/main/java/com/igc/lwsk/block/OfficeWallBottomBlock.java",
+          "src/main/resources/assets/lwsk/models/item/office_wall_bottom.json",
+          "src/main/resources/assets/lwsk/blockstates/office_wall_bottom.json",
+          "src/main/resources/assets/lwsk/models/block/office_wall_bottom.json"
         ]
       }
     },
     {
-      "name": "WallAMiddleS1",
+      "name": "OfficeWallBottomCracked",
       "type": "block",
-      "sortid": 14,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wall_a_middle_s_1",
+      "registry_name": "office_wall_bottom_cracked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lwsk/models/block/wall_a_middle_s_1.json",
-          "src/main/resources/assets/lwsk/models/item/wall_a_middle_s_1.json",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_middle_s_1.json",
-          "src/main/java/com/igc/lwsk/block/WallAMiddleS1Block.java"
+          "src/main/java/com/igc/lwsk/block/OfficeWallBottomCrackedBlock.java",
+          "src/main/resources/assets/lwsk/models/block/office_wall_bottom_cracked.json",
+          "src/main/resources/assets/lwsk/models/item/office_wall_bottom_cracked.json",
+          "src/main/resources/assets/lwsk/blockstates/office_wall_bottom_cracked.json"
         ]
       }
     },
     {
-      "name": "WallAMiddleS2",
+      "name": "OfficeWallMiddle",
       "type": "block",
-      "sortid": 15,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wall_a_middle_s_2",
+      "registry_name": "office_wall_middle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lwsk/models/block/wall_a_middle_s_2.json",
-          "src/main/java/com/igc/lwsk/block/WallAMiddleS2Block.java",
-          "src/main/resources/assets/lwsk/models/item/wall_a_middle_s_2.json",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_middle_s_2.json"
+          "src/main/resources/assets/lwsk/models/item/office_wall_middle.json",
+          "src/main/resources/assets/lwsk/blockstates/office_wall_middle.json",
+          "src/main/resources/assets/lwsk/models/block/office_wall_middle.json",
+          "src/main/java/com/igc/lwsk/block/OfficeWallMiddleBlock.java"
         ]
       }
     },
     {
-      "name": "WallAMiddleS3",
+      "name": "OfficeWallMiddleCracked",
       "type": "block",
-      "sortid": 16,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wall_a_middle_s_3",
+      "registry_name": "office_wall_middle_cracked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lwsk/models/item/wall_a_middle_s_3.json",
-          "src/main/java/com/igc/lwsk/block/WallAMiddleS3Block.java",
-          "src/main/resources/assets/lwsk/models/block/wall_a_middle_s_3.json",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_middle_s_3.json"
+          "src/main/java/com/igc/lwsk/block/OfficeWallMiddleCrackedBlock.java",
+          "src/main/resources/assets/lwsk/blockstates/office_wall_middle_cracked.json",
+          "src/main/resources/assets/lwsk/models/block/office_wall_middle_cracked.json",
+          "src/main/resources/assets/lwsk/models/item/office_wall_middle_cracked.json"
         ]
       }
     },
     {
-      "name": "WallADoorMiddleS1",
+      "name": "OfficeWallMiddle2",
       "type": "block",
-      "sortid": 20,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wall_a_door_middle_s_1",
+      "registry_name": "office_wall_middle_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lwsk/models/block/wall_a_door_middle_s_1.json",
-          "src/main/resources/assets/lwsk/models/item/wall_a_door_middle_s_1.json",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_door_middle_s_1.json",
-          "src/main/java/com/igc/lwsk/block/WallADoorMiddleS1Block.java"
+          "src/main/java/com/igc/lwsk/block/OfficeWallMiddle2Block.java",
+          "src/main/resources/assets/lwsk/blockstates/office_wall_middle_2.json",
+          "src/main/resources/assets/lwsk/models/block/office_wall_middle_2.json",
+          "src/main/resources/assets/lwsk/models/item/office_wall_middle_2.json"
         ]
       }
     },
     {
-      "name": "WallADoorMiddleS2",
+      "name": "OfficeWallTop",
       "type": "block",
-      "sortid": 21,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wall_a_door_middle_s_2",
+      "registry_name": "office_wall_top",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lwsk/blockstates/wall_a_door_middle_s_2.json",
-          "src/main/resources/assets/lwsk/models/item/wall_a_door_middle_s_2.json",
-          "src/main/resources/assets/lwsk/models/block/wall_a_door_middle_s_2.json",
-          "src/main/java/com/igc/lwsk/block/WallADoorMiddleS2Block.java"
+          "src/main/resources/assets/lwsk/blockstates/office_wall_top.json",
+          "src/main/resources/assets/lwsk/models/item/office_wall_top.json",
+          "src/main/resources/assets/lwsk/models/block/office_wall_top.json",
+          "src/main/java/com/igc/lwsk/block/OfficeWallTopBlock.java"
         ]
       }
     },
     {
-      "name": "WallADoorMiddleS3",
+      "name": "OfficeWallTopCracked",
       "type": "block",
-      "sortid": 22,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wall_a_door_middle_s_3",
+      "registry_name": "office_wall_top_cracked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lwsk/models/block/wall_a_door_middle_s_3.json",
-          "src/main/java/com/igc/lwsk/block/WallADoorMiddleS3Block.java",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_door_middle_s_3.json",
-          "src/main/resources/assets/lwsk/models/item/wall_a_door_middle_s_3.json"
+          "src/main/java/com/igc/lwsk/block/OfficeWallTopCrackedBlock.java",
+          "src/main/resources/assets/lwsk/models/block/office_wall_top_cracked.json",
+          "src/main/resources/assets/lwsk/models/item/office_wall_top_cracked.json",
+          "src/main/resources/assets/lwsk/blockstates/office_wall_top_cracked.json"
         ]
       }
     },
     {
-      "name": "WallATop",
+      "name": "SublevelWallBottom",
       "type": "block",
-      "sortid": 17,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wall_a_top",
+      "registry_name": "sublevel_wall_bottom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lwsk/models/item/wall_a_top.json",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_top.json",
-          "src/main/resources/assets/lwsk/models/block/wall_a_top.json",
-          "src/main/java/com/igc/lwsk/block/WallATopBlock.java"
+          "src/main/resources/assets/lwsk/models/item/sublevel_wall_bottom.json",
+          "src/main/resources/assets/lwsk/models/block/sublevel_wall_bottom.json",
+          "src/main/java/com/igc/lwsk/block/SublevelWallBottomBlock.java",
+          "src/main/resources/assets/lwsk/blockstates/sublevel_wall_bottom.json"
         ]
       }
     },
     {
-      "name": "WallADoorTop",
+      "name": "SublevelWallMiddle",
       "type": "block",
-      "sortid": 23,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wall_a_door_top",
+      "registry_name": "sublevel_wall_middle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lwsk/models/item/wall_a_door_top.json",
-          "src/main/resources/assets/lwsk/models/block/wall_a_door_top.json",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_door_top.json",
-          "src/main/java/com/igc/lwsk/block/WallADoorTopBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "Lamp",
-      "type": "block",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lamp",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/block/LampBlock.java",
-          "src/main/resources/assets/lwsk/models/block/lamp.json",
-          "src/main/resources/assets/lwsk/models/item/lamp.json",
-          "src/main/resources/assets/lwsk/blockstates/lamp.json"
-        ]
-      }
-    },
-    {
-      "name": "BrokenLamp",
-      "type": "block",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "broken_lamp",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/broken_lamp.json",
-          "src/main/resources/assets/lwsk/blockstates/broken_lamp.json",
-          "src/main/resources/assets/lwsk/models/block/broken_lamp.json",
-          "src/main/java/com/igc/lwsk/block/BrokenLampBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "LampUpdateTick",
-      "type": "procedure",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lamp_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/procedures/LampUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "WallADoorBottom",
-      "type": "block",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wall_a_door_bottom",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/wall_a_door_bottom.json",
-          "src/main/java/com/igc/lwsk/block/WallADoorBottomBlock.java",
-          "src/main/resources/assets/lwsk/models/block/wall_a_door_bottom.json",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_door_bottom.json"
-        ]
-      }
-    },
-    {
-      "name": "WallBBottom",
-      "type": "block",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wall_b_bottom",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/blockstates/wall_b_bottom.json",
-          "src/main/java/com/igc/lwsk/block/WallBBottomBlock.java",
-          "src/main/resources/assets/lwsk/models/item/wall_b_bottom.json",
-          "src/main/resources/assets/lwsk/models/block/wall_b_bottom.json"
-        ]
-      }
-    },
-    {
-      "name": "WallBMiddleS1",
-      "type": "block",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wall_b_middle_s_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/blockstates/wall_b_middle_s_1.json",
-          "src/main/java/com/igc/lwsk/block/WallBMiddleS1Block.java",
-          "src/main/resources/assets/lwsk/models/item/wall_b_middle_s_1.json",
-          "src/main/resources/assets/lwsk/models/block/wall_b_middle_s_1.json"
-        ]
-      }
-    },
-    {
-      "name": "WallBDoorBottom",
-      "type": "block",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wall_b_door_bottom",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/block/WallBDoorBottomBlock.java",
-          "src/main/resources/assets/lwsk/models/item/wall_b_door_bottom.json",
-          "src/main/resources/assets/lwsk/models/block/wall_b_door_bottom.json",
-          "src/main/resources/assets/lwsk/blockstates/wall_b_door_bottom.json"
-        ]
-      }
-    },
-    {
-      "name": "WallBDoorMiddleS1",
-      "type": "block",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wall_b_door_middle_s_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/block/wall_b_door_middle_s_1.json",
-          "src/main/resources/assets/lwsk/blockstates/wall_b_door_middle_s_1.json",
-          "src/main/resources/assets/lwsk/models/item/wall_b_door_middle_s_1.json",
-          "src/main/java/com/igc/lwsk/block/WallBDoorMiddleS1Block.java"
-        ]
-      }
-    },
-    {
-      "name": "LWSKOfficeGlass",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lwsk_office_glass",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/block/lwsk_office_glass_noside.json",
-          "src/main/resources/assets/lwsk/models/item/lwsk_office_glass.json",
-          "src/main/resources/assets/lwsk/models/block/lwsk_office_glass_side_alt.json",
-          "src/main/resources/assets/lwsk/blockstates/lwsk_office_glass.json",
-          "src/main/java/com/igc/lwsk/block/LWSKOfficeGlassBlock.java",
-          "src/main/resources/assets/lwsk/models/block/lwsk_office_glass_post.json",
-          "src/main/resources/assets/lwsk/models/block/lwsk_office_glass_side.json",
-          "src/main/resources/assets/lwsk/models/block/lwsk_office_glass_noside_alt.json"
-        ]
-      }
-    },
-    {
-      "name": "WallABottomCracked",
-      "type": "block",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wall_a_bottom_cracked",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/blockstates/wall_a_bottom_cracked.json",
-          "src/main/java/com/igc/lwsk/block/WallABottomCrackedBlock.java",
-          "src/main/resources/assets/lwsk/models/item/wall_a_bottom_cracked.json",
-          "src/main/resources/assets/lwsk/models/block/wall_a_bottom_cracked.json"
-        ]
-      }
-    },
-    {
-      "name": "WallAMiddleS1Cracked",
-      "type": "block",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wall_a_middle_s_2_cracked",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/block/WallAMiddleS1CrackedBlock.java",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_middle_s_2_cracked.json",
-          "src/main/resources/assets/lwsk/models/block/wall_a_middle_s_2_cracked.json",
-          "src/main/resources/assets/lwsk/models/item/wall_a_middle_s_2_cracked.json"
-        ]
-      }
-    },
-    {
-      "name": "WallATopCracked",
-      "type": "block",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wall_a_top_cracked",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/block/wall_a_top_cracked.json",
-          "src/main/resources/assets/lwsk/models/item/wall_a_top_cracked.json",
-          "src/main/java/com/igc/lwsk/block/WallATopCrackedBlock.java",
-          "src/main/resources/assets/lwsk/blockstates/wall_a_top_cracked.json"
-        ]
-      }
-    },
-    {
-      "name": "Knife",
-      "type": "tool",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "knife",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/knife.json",
-          "src/main/java/com/igc/lwsk/item/KnifeItem.java"
-        ]
-      }
-    },
-    {
-      "name": "AdvancedKnife",
-      "type": "tool",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "advanced_knife",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/item/AdvancedKnifeItem.java",
-          "src/main/resources/assets/lwsk/models/item/advanced_knife.json"
-        ]
-      }
-    },
-    {
-      "name": "SpecialKnife",
-      "type": "tool",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "special_knife",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/item/SpecialKnifeItem.java",
-          "src/main/resources/assets/lwsk/models/item/special_knife.json"
-        ]
-      }
-    },
-    {
-      "name": "SpecialKnifeToolInInventoryTick",
-      "type": "procedure",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "special_knife_tool_in_inventory_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/procedures/SpecialKnifeToolInInventoryTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      }
-    },
-    {
-      "name": "JanitorKeycard",
-      "type": "item",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "janitor_keycard",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/janitor_keycard.json",
-          "src/main/java/com/igc/lwsk/item/JanitorKeycardItem.java"
-        ]
-      }
-    },
-    {
-      "name": "SecurityKeycard",
-      "type": "item",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "security_keycard",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/security_keycard.json",
-          "src/main/java/com/igc/lwsk/item/SecurityKeycardItem.java"
-        ]
-      }
-    },
-    {
-      "name": "ManagerKeycard",
-      "type": "item",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "manager_keycard",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/manager_keycard.json",
-          "src/main/java/com/igc/lwsk/item/ManagerKeycardItem.java"
-        ]
-      }
-    },
-    {
-      "name": "C4Explosive",
-      "type": "block",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_4_explosive",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/block/C4ExplosiveBlock.java",
-          "src/main/resources/assets/lwsk/blockstates/c_4_explosive.json",
-          "src/main/resources/assets/lwsk/models/item/c_4_explosive.json",
-          "src/main/resources/assets/lwsk/models/block/c_4_explosive.json"
-        ]
-      }
-    },
-    {
-      "name": "C4ExplosiveActivated",
-      "type": "block",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_4_explosive_activated",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/blockstates/c_4_explosive_activated.json",
-          "src/main/java/com/igc/lwsk/block/C4ExplosiveActivatedBlock.java",
-          "src/main/resources/assets/lwsk/models/item/c_4_explosive_activated.json",
-          "src/main/resources/assets/lwsk/models/block/c_4_explosive_activated.json"
-        ]
-      }
-    },
-    {
-      "name": "C4ExplosiveActivatedUpdateTick",
-      "type": "procedure",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_4_explosive_activated_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/procedures/C4ExplosiveActivatedUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "C4ExplosiveOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_4_explosive_on_block_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/procedures/C4ExplosiveOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "LWSKGrassBlock",
-      "type": "block",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lwsk_grass_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/lwsk_grass_block.json",
-          "src/main/java/com/igc/lwsk/block/LWSKGrassBlockBlock.java",
-          "src/main/resources/assets/lwsk/models/block/lwsk_grass_block.json",
-          "src/main/resources/assets/lwsk/blockstates/lwsk_grass_block.json"
-        ]
-      }
-    },
-    {
-      "name": "LWSKDirt",
-      "type": "block",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lwsk_dirt",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/lwsk_dirt.json",
-          "src/main/resources/assets/lwsk/models/block/lwsk_dirt.json",
-          "src/main/resources/assets/lwsk/blockstates/lwsk_dirt.json",
-          "src/main/java/com/igc/lwsk/block/LWSKDirtBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "LWSKStone",
-      "type": "block",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lwsk_stone",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/blockstates/lwsk_stone.json",
-          "src/main/resources/assets/lwsk/models/block/lwsk_stone.json",
-          "src/main/resources/assets/lwsk/models/item/lwsk_stone.json",
-          "src/main/java/com/igc/lwsk/block/LWSKStoneBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "LWSKFern",
-      "type": "block",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lwsk_fern",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/block/LWSKFernBlock.java",
-          "src/main/resources/assets/lwsk/blockstates/lwsk_fern.json",
-          "src/main/resources/assets/lwsk/models/item/lwsk_fern.json",
-          "src/main/resources/assets/lwsk/models/block/lwsk_fern.json"
-        ]
-      }
-    },
-    {
-      "name": "LWSKTallFern",
-      "type": "block",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lwsk_tall_fern_bottom",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/lwsk_tall_fern_bottom.json",
-          "src/main/resources/assets/lwsk/models/block/lwsk_tall_fern_bottom.json",
-          "src/main/java/com/igc/lwsk/block/LWSKTallFernBlock.java",
-          "src/main/resources/assets/lwsk/blockstates/lwsk_tall_fern_bottom.json"
-        ]
-      }
-    },
-    {
-      "name": "LWSKTallFernTop",
-      "type": "block",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lwsk_tall_fern_top",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/blockstates/lwsk_tall_fern_top.json",
-          "src/main/java/com/igc/lwsk/block/LWSKTallFernTopBlock.java",
-          "src/main/resources/assets/lwsk/models/item/lwsk_tall_fern_top.json",
-          "src/main/resources/assets/lwsk/models/block/lwsk_tall_fern_top.json"
-        ]
-      }
-    },
-    {
-      "name": "LWSKSweetBerriesBush",
-      "type": "block",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lwsk_sweet_berries_bush",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/lwsk_sweet_berries_bush.json",
-          "src/main/resources/assets/lwsk/blockstates/lwsk_sweet_berries_bush.json",
-          "src/main/java/com/igc/lwsk/block/LWSKSweetBerriesBushBlock.java",
-          "src/main/resources/assets/lwsk/models/block/lwsk_sweet_berries_bush.json"
-        ]
-      }
-    },
-    {
-      "name": "LWSKSweetBerriesBushEntityWalksOnTheBlock",
-      "type": "procedure",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lwsk_sweet_berries_bush_entity_walks_on_the_block",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/procedures/LWSKSweetBerriesBushEntityWalksOnTheBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "LWSKSpruceLeaves",
-      "type": "block",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lwsk_spruce_leaves",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/block/LWSKSpruceLeavesBlock.java",
-          "src/main/resources/assets/lwsk/models/item/lwsk_spruce_leaves.json",
-          "src/main/resources/assets/lwsk/models/block/lwsk_spruce_leaves.json",
-          "src/main/resources/assets/lwsk/blockstates/lwsk_spruce_leaves.json"
-        ]
-      }
-    },
-    {
-      "name": "PineTreeLog",
-      "type": "block",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pine_tree_log",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/block/pine_tree_log.json",
-          "src/main/resources/assets/lwsk/models/item/pine_tree_log.json",
-          "src/main/resources/assets/lwsk/blockstates/pine_tree_log.json",
-          "src/main/java/com/igc/lwsk/block/PineTreeLogBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "OfficeTable",
-      "type": "block",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "office_table",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/item/office_table.json",
-          "src/main/resources/assets/lwsk/models/block/office_table.json",
-          "src/main/java/com/igc/lwsk/block/OfficeTableBlock.java",
-          "src/main/resources/assets/lwsk/blockstates/office_table.json",
-          "src/main/java/com/igc/lwsk/block/entity/OfficeTableBlockEntity.java"
-        ]
-      }
-    },
-    {
-      "name": "OfficeChair",
-      "type": "block",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "office_chair",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/models/block/office_chair.json",
-          "src/main/resources/assets/lwsk/models/item/office_chair.json",
-          "src/main/resources/assets/lwsk/blockstates/office_chair.json",
-          "src/main/java/com/igc/lwsk/block/OfficeChairBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "OfficeTableGUI",
-      "type": "gui",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "office_table_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/world/inventory/OfficeTableGUIMenu.java",
-          "src/main/java/com/igc/lwsk/client/gui/OfficeTableGUIScreen.java"
-        ]
-      }
-    },
-    {
-      "name": "OfficeDoor",
-      "type": "block",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "office_door",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lwsk/blockstates/office_door.json",
-          "src/main/resources/assets/lwsk/models/block/office_door_top_hinge.json",
-          "src/main/resources/assets/lwsk/models/item/office_door.json",
-          "src/main/resources/assets/lwsk/models/block/office_door_top.json",
-          "src/main/java/com/igc/lwsk/block/OfficeDoorBlock.java",
-          "src/main/resources/assets/lwsk/models/block/office_door_bottom.json",
-          "src/main/resources/assets/lwsk/models/block/office_door_bottom_hinge.json"
+          "src/main/resources/assets/lwsk/models/item/sublevel_wall_middle.json",
+          "src/main/resources/assets/lwsk/blockstates/sublevel_wall_middle.json",
+          "src/main/resources/assets/lwsk/models/block/sublevel_wall_middle.json",
+          "src/main/java/com/igc/lwsk/block/SublevelWallMiddleBlock.java"
         ]
       }
     }
@@ -1057,63 +420,32 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.lwsk.floor_d_slab": "Floor D Slab",
-      "block.lwsk.lamp": "Lamp",
-      "block.lwsk.c_4_explosive": "C4 Explosive",
-      "block.lwsk.wall_a_top": "Wall A Top",
-      "block.lwsk.c_4_explosive_activated": "C4 Explosive",
+      "block.lwsk.floor_d_slab": "Floor Slab",
+      "block.lwsk.sublevel_wall_middle": "Sublevel Wall Middle",
+      "block.lwsk.office_wall_middle_cracked": "Office Wall Middle Cracked",
       "itemGroup.tablwsk_adventures_items": "LWSK Adventures Arsenal",
       "block.lwsk.floor_c_slab": "Floor C Slab",
-      "block.lwsk.wall_a_top_cracked": "Wall A Top Cracked",
-      "block.lwsk.lwsk_stone": "Stone",
-      "item.lwsk.security_keycard": "Security Keycard",
-      "item.lwsk.special_knife": "Special Knife",
-      "item.lwsk.advanced_knife": "Advanced Knife",
-      "block.lwsk.lwsk_dirt": "Dirt",
-      "block.lwsk.wall_a_bottom_cracked": "Wall A Bottom Cracked",
-      "block.lwsk.lwsk_spruce_leaves": "Spruce Leaves",
-      "item.lwsk.manager_keycard": "Manager Keycard",
-      "block.lwsk.lwsk_tall_fern_top": "LWSK Tall Fern Top",
-      "block.lwsk.wall_b_bottom": "Wall B Bottom",
-      "block.lwsk.wall_b_door_middle_s_1": "Wall B Door Middle S1",
-      "block.lwsk.lwsk_tall_fern_bottom": "LWSK Tall Fern Bottom",
-      "block.lwsk.wall_a_middle_s_2_cracked": "Wall A Middle S2 Cracked",
-      "block.lwsk.office_door": "Office Door",
-      "block.lwsk.office_table": "Office Table",
+      "block.lwsk.sublevel_wall_bottom": "Sublevel Wall Bottom",
+      "block.lwsk.office_wall_middle_2": "Office Wall Middle",
+      "block.lwsk.office_wall_middle": "Office Wall Middle",
       "block.lwsk.floor_a_stairs": "Floor A Stairs",
       "block.lwsk.floor_b_stairs": "Floor B Stairs",
       "item.lwsk.arsenal_logo": "Arsenal Logo",
       "block.lwsk.floor_c_stairs": "Floor C Stairs",
-      "block.lwsk.floor_d_stairs": "Floor D Stairs",
-      "block.lwsk.wall_a_door_middle_s_1": "Wall A Door Middle S1",
+      "block.lwsk.office_wall_top": "Office Wall Top",
+      "block.lwsk.floor_d_stairs": "Floor Stairs",
       "itemGroup.tablwsk_adventures_building": "LWSK Adventures Building",
-      "block.lwsk.wall_a_door_middle_s_3": "Wall A Door Middle S3",
       "block.lwsk.floor_a_slab": "Floor A Slab",
-      "block.lwsk.wall_a_door_middle_s_2": "Wall A Door Middle S2",
-      "block.lwsk.wall_b_door_bottom": "Wall B Door Bottom",
-      "block.lwsk.wall_a_door_bottom": "Wall A Door Bottom",
-      "block.lwsk.lwsk_sweet_berries_bush": "Sweet Berries Bush",
-      "block.lwsk.wall_a_bootom": "Wall A Bottom",
-      "block.lwsk.lwsk_office_glass": "Light Blue Stained Glass Pane",
-      "block.lwsk.broken_lamp": "Broken Lamp",
-      "block.lwsk.wall_a_middle_s_1": "Wall A Middle S1",
-      "block.lwsk.wall_a_middle_s_2": "Wall A Middle S2",
-      "block.lwsk.wall_a_middle_s_3": "Wall A Middle S3",
+      "block.lwsk.office_wall_bottom_cracked": "Office Wall Bottom Cracked",
       "block.lwsk.floor_a": "Floor A",
       "itemGroup.tablwsk_adventures_mc_blocks": "LWSK Adventures MCBlocks",
-      "block.lwsk.office_chair": "Office Chair",
       "block.lwsk.floor_b": "Floor B",
       "block.lwsk.floor_c": "Floor C",
       "block.lwsk.floor_d": "Floor D",
-      "block.lwsk.wall_a_door_top": "Wall A Door Top",
-      "block.lwsk.lwsk_grass_block": "Grass Block",
-      "item.lwsk.janitor_keycard": "Janitor Keycard",
-      "block.lwsk.pine_tree_log": "Pine Tree Log",
+      "block.lwsk.office_wall_top_cracked": "Office Wall Top Cracked",
+      "block.lwsk.office_wall_bottom": "Office Wall Bottom",
       "block.lwsk.blocks_logo": "Blocks Logo",
-      "block.lwsk.wall_b_middle_s_1": "Wall B Middle S1",
-      "block.lwsk.floor_b_slab": "Floor B Slab",
-      "item.lwsk.knife": "Knife",
-      "block.lwsk.lwsk_fern": "Fern"
+      "block.lwsk.floor_b_slab": "Floor B Slab"
     }
   },
   "foldersRoot": {
