@@ -41,6 +41,11 @@ public class LwskModItems {
 	public static final RegistryObject<Item> OFFICE_WALL_TOP_CRACKED = block(LwskModBlocks.OFFICE_WALL_TOP_CRACKED, LwskModTabs.TAB_LWSK_ADVENTURES_BUILDING);
 	public static final RegistryObject<Item> SUBLEVEL_WALL_BOTTOM = block(LwskModBlocks.SUBLEVEL_WALL_BOTTOM, LwskModTabs.TAB_LWSK_ADVENTURES_BUILDING);
 	public static final RegistryObject<Item> SUBLEVEL_WALL_MIDDLE = block(LwskModBlocks.SUBLEVEL_WALL_MIDDLE, LwskModTabs.TAB_LWSK_ADVENTURES_BUILDING);
+	public static final RegistryObject<Item> LWSK_GRASS_BLOCK = block(LwskModBlocks.LWSK_GRASS_BLOCK, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
+	public static final RegistryObject<Item> LWSK_DIRT_BLOCK = block(LwskModBlocks.LWSK_DIRT_BLOCK, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
+	public static final RegistryObject<Item> LWSK_DIRT_STAIRS = block(LwskModBlocks.LWSK_DIRT_STAIRS, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
+	public static final RegistryObject<Item> LWSK_DIRT_SLAB = block(LwskModBlocks.LWSK_DIRT_SLAB, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
+	public static final RegistryObject<Item> LWSK_STONE = block(LwskModBlocks.LWSK_STONE, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

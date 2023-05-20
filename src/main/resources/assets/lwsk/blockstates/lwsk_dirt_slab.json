@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lwsk:block/lwsk_dirt_slab"
+    },
+    "type=top": {
+      "model": "lwsk:block/lwsk_dirt_slab_top"
+    },
+    "type=double": {
+      "model": "lwsk:block/lwsk_dirt_slab_full"
+    }
+  }
+}

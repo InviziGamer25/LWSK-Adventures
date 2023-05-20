@@ -414,36 +414,125 @@
           "src/main/java/com/igc/lwsk/block/SublevelWallMiddleBlock.java"
         ]
       }
+    },
+    {
+      "name": "LWSKGrassBlock",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/models/item/lwsk_grass_block.json",
+          "src/main/java/com/igc/lwsk/block/LWSKGrassBlockBlock.java",
+          "src/main/resources/assets/lwsk/models/block/lwsk_grass_block.json",
+          "src/main/resources/assets/lwsk/blockstates/lwsk_grass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LWSKDirtBlock",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/blockstates/lwsk_dirt_block.json",
+          "src/main/resources/assets/lwsk/models/item/lwsk_dirt_block.json",
+          "src/main/resources/assets/lwsk/models/block/lwsk_dirt_block.json",
+          "src/main/java/com/igc/lwsk/block/LWSKDirtBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LWSKDirtStairs",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_dirt_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/models/block/lwsk_dirt_stairs_inner.json",
+          "src/main/resources/assets/lwsk/models/item/lwsk_dirt_stairs.json",
+          "src/main/resources/assets/lwsk/blockstates/lwsk_dirt_stairs.json",
+          "src/main/resources/assets/lwsk/models/block/lwsk_dirt_stairs_outer.json",
+          "src/main/resources/assets/lwsk/models/block/lwsk_dirt_stairs.json",
+          "src/main/java/com/igc/lwsk/block/LWSKDirtStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LWSKDirtSlab",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_dirt_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/models/item/lwsk_dirt_slab.json",
+          "src/main/resources/assets/lwsk/models/block/lwsk_dirt_slab.json",
+          "src/main/resources/assets/lwsk/blockstates/lwsk_dirt_slab.json",
+          "src/main/java/com/igc/lwsk/block/LWSKDirtSlabBlock.java",
+          "src/main/resources/assets/lwsk/models/block/lwsk_dirt_slab_top.json",
+          "src/main/resources/assets/lwsk/models/block/lwsk_dirt_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "LWSKStone",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/blockstates/lwsk_stone.json",
+          "src/main/resources/assets/lwsk/models/block/lwsk_stone.json",
+          "src/main/resources/assets/lwsk/models/item/lwsk_stone.json",
+          "src/main/java/com/igc/lwsk/block/LWSKStoneBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.lwsk.floor_d_slab": "Floor Slab",
-      "block.lwsk.sublevel_wall_middle": "Sublevel Wall Middle",
-      "block.lwsk.office_wall_middle_cracked": "Office Wall Middle Cracked",
-      "itemGroup.tablwsk_adventures_items": "LWSK Adventures Arsenal",
-      "block.lwsk.floor_c_slab": "Floor C Slab",
-      "block.lwsk.sublevel_wall_bottom": "Sublevel Wall Bottom",
-      "block.lwsk.office_wall_middle_2": "Office Wall Middle",
-      "block.lwsk.office_wall_middle": "Office Wall Middle",
       "block.lwsk.floor_a_stairs": "Floor A Stairs",
       "block.lwsk.floor_b_stairs": "Floor B Stairs",
       "item.lwsk.arsenal_logo": "Arsenal Logo",
       "block.lwsk.floor_c_stairs": "Floor C Stairs",
+      "block.lwsk.floor_d_slab": "Floor Slab",
+      "block.lwsk.lwsk_dirt_slab": "Dirt Slab",
       "block.lwsk.office_wall_top": "Office Wall Top",
+      "block.lwsk.sublevel_wall_middle": "Sublevel Wall Middle",
+      "block.lwsk.office_wall_middle_cracked": "Office Wall Middle Cracked",
       "block.lwsk.floor_d_stairs": "Floor Stairs",
       "itemGroup.tablwsk_adventures_building": "LWSK Adventures Building",
       "block.lwsk.floor_a_slab": "Floor A Slab",
+      "block.lwsk.floor_c_slab": "Floor C Slab",
+      "itemGroup.tablwsk_adventures_items": "LWSK Adventures Arsenal",
       "block.lwsk.office_wall_bottom_cracked": "Office Wall Bottom Cracked",
+      "block.lwsk.lwsk_stone": "Stone",
+      "block.lwsk.sublevel_wall_bottom": "Sublevel Wall Bottom",
+      "block.lwsk.office_wall_middle_2": "Office Wall Middle",
+      "block.lwsk.lwsk_dirt_block": "Dirt Block",
+      "block.lwsk.office_wall_middle": "Office Wall Middle",
       "block.lwsk.floor_a": "Floor A",
       "itemGroup.tablwsk_adventures_mc_blocks": "LWSK Adventures MCBlocks",
       "block.lwsk.floor_b": "Floor B",
       "block.lwsk.floor_c": "Floor C",
       "block.lwsk.floor_d": "Floor D",
       "block.lwsk.office_wall_top_cracked": "Office Wall Top Cracked",
+      "block.lwsk.lwsk_grass_block": "Grass Block",
       "block.lwsk.office_wall_bottom": "Office Wall Bottom",
+      "block.lwsk.lwsk_dirt_stairs": "Dirt Stairs",
       "block.lwsk.blocks_logo": "Blocks Logo",
       "block.lwsk.floor_b_slab": "Floor B Slab"
     }

@@ -23,6 +23,11 @@ import com.igc.lwsk.block.OfficeWallMiddleBlock;
 import com.igc.lwsk.block.OfficeWallMiddle2Block;
 import com.igc.lwsk.block.OfficeWallBottomCrackedBlock;
 import com.igc.lwsk.block.OfficeWallBottomBlock;
+import com.igc.lwsk.block.LWSKStoneBlock;
+import com.igc.lwsk.block.LWSKGrassBlockBlock;
+import com.igc.lwsk.block.LWSKDirtStairsBlock;
+import com.igc.lwsk.block.LWSKDirtSlabBlock;
+import com.igc.lwsk.block.LWSKDirtBlockBlock;
 import com.igc.lwsk.block.FloorDStairsBlock;
 import com.igc.lwsk.block.FloorDSlabBlock;
 import com.igc.lwsk.block.FloorDBlock;
@@ -62,6 +67,11 @@ public class LwskModBlocks {
 	public static final RegistryObject<Block> OFFICE_WALL_TOP_CRACKED = REGISTRY.register("office_wall_top_cracked", () -> new OfficeWallTopCrackedBlock());
 	public static final RegistryObject<Block> SUBLEVEL_WALL_BOTTOM = REGISTRY.register("sublevel_wall_bottom", () -> new SublevelWallBottomBlock());
 	public static final RegistryObject<Block> SUBLEVEL_WALL_MIDDLE = REGISTRY.register("sublevel_wall_middle", () -> new SublevelWallMiddleBlock());
+	public static final RegistryObject<Block> LWSK_GRASS_BLOCK = REGISTRY.register("lwsk_grass_block", () -> new LWSKGrassBlockBlock());
+	public static final RegistryObject<Block> LWSK_DIRT_BLOCK = REGISTRY.register("lwsk_dirt_block", () -> new LWSKDirtBlockBlock());
+	public static final RegistryObject<Block> LWSK_DIRT_STAIRS = REGISTRY.register("lwsk_dirt_stairs", () -> new LWSKDirtStairsBlock());
+	public static final RegistryObject<Block> LWSK_DIRT_SLAB = REGISTRY.register("lwsk_dirt_slab", () -> new LWSKDirtSlabBlock());
+	public static final RegistryObject<Block> LWSK_STONE = REGISTRY.register("lwsk_stone", () -> new LWSKStoneBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

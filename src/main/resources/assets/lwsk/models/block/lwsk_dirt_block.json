@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lwsk:blocks/dirt",
+    "up": "lwsk:blocks/dirt",
+    "north": "lwsk:blocks/dirt",
+    "east": "lwsk:blocks/dirt",
+    "south": "lwsk:blocks/dirt",
+    "west": "lwsk:blocks/dirt",
+    "particle": "lwsk:blocks/dirt"
+  }
+}
