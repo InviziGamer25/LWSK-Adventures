@@ -19,20 +19,20 @@ LWSK Adventures is a Map and Mod that comes with a bunch of missions with puzzle
 **LWSK Adventures - Map and Mod**
 
 *Head Development*
-InviziGamer - Main Director
-Lucas(Kotho) - Project Supervisor
+1. InviziGamer - Main Director
+2. Lucas(Kotho) - Project Supervisor
 
 *Secondary Development*
 
 
 *Sound Team*
-iJHONY² - Ambience
+1. iJHONY² - Ambience
 
 *Scenarios*
 
 
 *Translators*
-InviziGamer - English Translation
+1. InviziGamer - English Translation
 
 # Links
 
