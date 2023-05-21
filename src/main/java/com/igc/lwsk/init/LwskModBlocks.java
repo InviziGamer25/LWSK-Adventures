@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 
 import com.igc.lwsk.block.SublevelWallMiddleBlock;
 import com.igc.lwsk.block.SublevelWallBottomBlock;
+import com.igc.lwsk.block.PineLogBlock;
 import com.igc.lwsk.block.OfficeWallTopCrackedBlock;
 import com.igc.lwsk.block.OfficeWallTopBlock;
 import com.igc.lwsk.block.OfficeWallMiddleCrackedBlock;
@@ -23,7 +24,10 @@ import com.igc.lwsk.block.OfficeWallMiddleBlock;
 import com.igc.lwsk.block.OfficeWallMiddle2Block;
 import com.igc.lwsk.block.OfficeWallBottomCrackedBlock;
 import com.igc.lwsk.block.OfficeWallBottomBlock;
+import com.igc.lwsk.block.LWSKStoneStairsBlock;
+import com.igc.lwsk.block.LWSKStoneSlabBlock;
 import com.igc.lwsk.block.LWSKStoneBlock;
+import com.igc.lwsk.block.LWSKSpruceLeavesBlock;
 import com.igc.lwsk.block.LWSKGrassBlockBlock;
 import com.igc.lwsk.block.LWSKDirtStairsBlock;
 import com.igc.lwsk.block.LWSKDirtSlabBlock;
@@ -40,6 +44,9 @@ import com.igc.lwsk.block.FloorBBlock;
 import com.igc.lwsk.block.FloorAStairsBlock;
 import com.igc.lwsk.block.FloorASlabBlock;
 import com.igc.lwsk.block.FloorABlock;
+import com.igc.lwsk.block.C4ExplosiveoffBlock;
+import com.igc.lwsk.block.C4ExplosiveOnBlock;
+import com.igc.lwsk.block.C4ExplosiveHalfBlock;
 import com.igc.lwsk.block.BlocksLogoBlock;
 import com.igc.lwsk.LwskMod;
 
@@ -72,6 +79,13 @@ public class LwskModBlocks {
 	public static final RegistryObject<Block> LWSK_DIRT_STAIRS = REGISTRY.register("lwsk_dirt_stairs", () -> new LWSKDirtStairsBlock());
 	public static final RegistryObject<Block> LWSK_DIRT_SLAB = REGISTRY.register("lwsk_dirt_slab", () -> new LWSKDirtSlabBlock());
 	public static final RegistryObject<Block> LWSK_STONE = REGISTRY.register("lwsk_stone", () -> new LWSKStoneBlock());
+	public static final RegistryObject<Block> LWSK_STONE_STAIRS = REGISTRY.register("lwsk_stone_stairs", () -> new LWSKStoneStairsBlock());
+	public static final RegistryObject<Block> LWSK_STONE_SLAB = REGISTRY.register("lwsk_stone_slab", () -> new LWSKStoneSlabBlock());
+	public static final RegistryObject<Block> PINE_LOG = REGISTRY.register("pine_log", () -> new PineLogBlock());
+	public static final RegistryObject<Block> LWSK_SPRUCE_LEAVES = REGISTRY.register("lwsk_spruce_leaves", () -> new LWSKSpruceLeavesBlock());
+	public static final RegistryObject<Block> C_4_EXPLOSIVEOFF = REGISTRY.register("c_4_explosiveoff", () -> new C4ExplosiveoffBlock());
+	public static final RegistryObject<Block> C_4_EXPLOSIVE_ON = REGISTRY.register("c_4_explosive_on", () -> new C4ExplosiveOnBlock());
+	public static final RegistryObject<Block> C_4_EXPLOSIVE_HALF = REGISTRY.register("c_4_explosive_half", () -> new C4ExplosiveHalfBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -81,6 +95,10 @@ public class LwskModBlocks {
 			FloorDBlock.registerRenderLayer();
 			FloorDStairsBlock.registerRenderLayer();
 			FloorDSlabBlock.registerRenderLayer();
+			LWSKSpruceLeavesBlock.registerRenderLayer();
+			C4ExplosiveoffBlock.registerRenderLayer();
+			C4ExplosiveOnBlock.registerRenderLayer();
+			C4ExplosiveHalfBlock.registerRenderLayer();
 		}
 	}
 }

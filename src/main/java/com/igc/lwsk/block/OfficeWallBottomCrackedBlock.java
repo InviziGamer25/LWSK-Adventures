@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class OfficeWallBottomCrackedBlock extends Block {
 	public OfficeWallBottomCrackedBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 0f).noDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(15f, 0f).noDrops());
 	}
 
 	@Override

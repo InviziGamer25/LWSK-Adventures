@@ -2,12 +2,12 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "wall_a_top_broken",
-    "textureTop": "wall_a_top_broken",
-    "textureLeft": "wall_a_middle_s2_broken",
-    "textureFront": "wall_a_middle_s2_broken",
-    "textureRight": "wall_a_middle_s2_broken",
-    "textureBack": "wall_a_middle_s2_broken",
+    "texture": "pine_tree_log_top",
+    "textureTop": "pine_tree_log_top",
+    "textureLeft": "pine_tree_log_side",
+    "textureFront": "pine_tree_log_side",
+    "textureRight": "pine_tree_log_side",
+    "textureBack": "pine_tree_log_side",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,20 +33,20 @@
         "subtract": false
       }
     ],
-    "name": "Office Wall Middle Cracked",
+    "name": "Pine Log",
     "specialInfo": [],
-    "hardness": 15.0,
-    "resistance": 0.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:LWSKAdventuresBuilding"
+      "value": "CUSTOM:LWSKAdventuresMCBlocks"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -97,7 +97,7 @@
       "value": ""
     },
     "luminance": 0,
-    "unbreakable": false,
+    "unbreakable": true,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,

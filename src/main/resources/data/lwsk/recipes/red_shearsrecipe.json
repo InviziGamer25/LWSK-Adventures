@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lwsk:lwsk_shears_blue"
+    }
+  ],
+  "result": {
+    "item": "lwsk:lwsk_shears_red",
+    "count": 1
+  }
+}

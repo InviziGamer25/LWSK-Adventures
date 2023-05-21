@@ -13,6 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import com.igc.lwsk.item.LWSKShearsRedItem;
+import com.igc.lwsk.item.LWSKShearsBlueItem;
 import com.igc.lwsk.item.ArsenalLogoItem;
 import com.igc.lwsk.LwskMod;
 
@@ -46,6 +48,15 @@ public class LwskModItems {
 	public static final RegistryObject<Item> LWSK_DIRT_STAIRS = block(LwskModBlocks.LWSK_DIRT_STAIRS, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
 	public static final RegistryObject<Item> LWSK_DIRT_SLAB = block(LwskModBlocks.LWSK_DIRT_SLAB, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
 	public static final RegistryObject<Item> LWSK_STONE = block(LwskModBlocks.LWSK_STONE, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
+	public static final RegistryObject<Item> LWSK_STONE_STAIRS = block(LwskModBlocks.LWSK_STONE_STAIRS, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
+	public static final RegistryObject<Item> LWSK_STONE_SLAB = block(LwskModBlocks.LWSK_STONE_SLAB, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
+	public static final RegistryObject<Item> PINE_LOG = block(LwskModBlocks.PINE_LOG, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
+	public static final RegistryObject<Item> LWSK_SPRUCE_LEAVES = block(LwskModBlocks.LWSK_SPRUCE_LEAVES, LwskModTabs.TAB_LWSK_ADVENTURES_MC_BLOCKS);
+	public static final RegistryObject<Item> C_4_EXPLOSIVEOFF = block(LwskModBlocks.C_4_EXPLOSIVEOFF, LwskModTabs.TAB_LWSK_ADVENTURES_ITEMS);
+	public static final RegistryObject<Item> C_4_EXPLOSIVE_ON = block(LwskModBlocks.C_4_EXPLOSIVE_ON, null);
+	public static final RegistryObject<Item> C_4_EXPLOSIVE_HALF = block(LwskModBlocks.C_4_EXPLOSIVE_HALF, null);
+	public static final RegistryObject<Item> LWSK_SHEARS_RED = REGISTRY.register("lwsk_shears_red", () -> new LWSKShearsRedItem());
+	public static final RegistryObject<Item> LWSK_SHEARS_BLUE = REGISTRY.register("lwsk_shears_blue", () -> new LWSKShearsBlueItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,9 @@
+{
+  "parent": "lwsk:custom/c4_explosive",
+  "textures": {
+    "all": "lwsk:blocks/c4_secondary_disarm",
+    "particle": "lwsk:blocks/c4_secondary_disarm",
+    "0": "lwsk:blocks/c4_main",
+    "1": "lwsk:blocks/c4_secondary_disarm"
+  }
+}

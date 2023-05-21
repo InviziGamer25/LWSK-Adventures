@@ -498,6 +498,420 @@
           "src/main/java/com/igc/lwsk/block/LWSKStoneBlock.java"
         ]
       }
+    },
+    {
+      "name": "LWSKStoneStairs",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_stone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/models/item/lwsk_stone_stairs.json",
+          "src/main/resources/assets/lwsk/models/block/lwsk_stone_stairs_outer.json",
+          "src/main/java/com/igc/lwsk/block/LWSKStoneStairsBlock.java",
+          "src/main/resources/assets/lwsk/models/block/lwsk_stone_stairs.json",
+          "src/main/resources/assets/lwsk/models/block/lwsk_stone_stairs_inner.json",
+          "src/main/resources/assets/lwsk/blockstates/lwsk_stone_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "LWSKStoneSlab",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_stone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/models/block/lwsk_stone_slab.json",
+          "src/main/java/com/igc/lwsk/block/LWSKStoneSlabBlock.java",
+          "src/main/resources/assets/lwsk/models/block/lwsk_stone_slab_top.json",
+          "src/main/resources/assets/lwsk/models/block/lwsk_stone_slab_full.json",
+          "src/main/resources/assets/lwsk/models/item/lwsk_stone_slab.json",
+          "src/main/resources/assets/lwsk/blockstates/lwsk_stone_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PineLog",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/blockstates/pine_log.json",
+          "src/main/resources/assets/lwsk/models/item/pine_log.json",
+          "src/main/resources/assets/lwsk/models/block/pine_log.json",
+          "src/main/java/com/igc/lwsk/block/PineLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LWSKSpruceLeaves",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_spruce_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/block/LWSKSpruceLeavesBlock.java",
+          "src/main/resources/assets/lwsk/models/item/lwsk_spruce_leaves.json",
+          "src/main/resources/assets/lwsk/models/block/lwsk_spruce_leaves.json",
+          "src/main/resources/assets/lwsk/blockstates/lwsk_spruce_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "C4Explosiveoff",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_explosiveoff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/blockstates/c_4_explosiveoff.json",
+          "src/main/resources/assets/lwsk/models/block/c_4_explosiveoff.json",
+          "src/main/java/com/igc/lwsk/block/C4ExplosiveoffBlock.java",
+          "src/main/resources/assets/lwsk/models/item/c_4_explosiveoff.json"
+        ]
+      }
+    },
+    {
+      "name": "C4ExplosiveOn",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_explosive_on",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/block/C4ExplosiveOnBlock.java",
+          "src/main/resources/assets/lwsk/models/block/c_4_explosive_on.json",
+          "src/main/resources/assets/lwsk/models/item/c_4_explosive_on.json",
+          "src/main/resources/assets/lwsk/blockstates/c_4_explosive_on.json"
+        ]
+      }
+    },
+    {
+      "name": "C4ExplosiveOnRedstoneOn",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_explosive_on_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/procedures/C4ExplosiveOnRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C4ExplosiveOnOnBlockHitByProjectile",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_explosive_on_on_block_hit_by_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/procedures/C4ExplosiveOnOnBlockHitByProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C4ExplosiveOnUpdateTick",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_explosive_on_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/procedures/C4ExplosiveOnUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C4ExplosiveHalf",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_explosive_half",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/models/block/c_4_explosive_half.json",
+          "src/main/resources/assets/lwsk/models/item/c_4_explosive_half.json",
+          "src/main/resources/assets/lwsk/blockstates/c_4_explosive_half.json",
+          "src/main/java/com/igc/lwsk/block/C4ExplosiveHalfBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LWSKShearsRed",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_shears_red",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/item/LWSKShearsRedItem.java",
+          "src/main/resources/assets/lwsk/models/item/lwsk_shears_red.json"
+        ]
+      }
+    },
+    {
+      "name": "LWSKShearsBlue",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_shears_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/item/LWSKShearsBlueItem.java",
+          "src/main/resources/assets/lwsk/models/item/lwsk_shears_blue.json"
+        ]
+      }
+    },
+    {
+      "name": "CKeybindingOnKeyPressed",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_keybinding_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/procedures/CKeybindingOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CKeybinding",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_keybinding",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/network/CKeybindingMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "C4ExplosiveoffOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_explosiveoff_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/procedures/C4ExplosiveoffOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C4ExplosiveHalfOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_explosive_half_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/procedures/C4ExplosiveHalfOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C4ExplosiveoffBlockAdded",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_explosiveoff_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/procedures/C4ExplosiveoffBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C4ExplosiveOnBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_explosive_on_block_destroyed_by_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/procedures/C4ExplosiveOnBlockDestroyedByExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedShearsrecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shearsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lwsk/recipes/red_shearsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueShearsrecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_shearsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lwsk/recipes/blue_shearsrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -505,25 +919,32 @@
   "language_map": {
     "en_us": {
       "block.lwsk.floor_a_stairs": "Floor A Stairs",
+      "block.lwsk.lwsk_stone_stairs": "Stone Stairs",
       "block.lwsk.floor_b_stairs": "Floor B Stairs",
       "item.lwsk.arsenal_logo": "Arsenal Logo",
-      "block.lwsk.floor_c_stairs": "Floor C Stairs",
-      "block.lwsk.floor_d_slab": "Floor Slab",
       "block.lwsk.lwsk_dirt_slab": "Dirt Slab",
+      "block.lwsk.floor_d_slab": "Floor Slab",
+      "block.lwsk.floor_c_stairs": "Floor C Stairs",
       "block.lwsk.office_wall_top": "Office Wall Top",
+      "item.lwsk.lwsk_shears_blue": "Shears",
       "block.lwsk.sublevel_wall_middle": "Sublevel Wall Middle",
       "block.lwsk.office_wall_middle_cracked": "Office Wall Middle Cracked",
       "block.lwsk.floor_d_stairs": "Floor Stairs",
       "itemGroup.tablwsk_adventures_building": "LWSK Adventures Building",
       "block.lwsk.floor_a_slab": "Floor A Slab",
+      "block.lwsk.c_4_explosive_on": "C4 Explosive",
       "block.lwsk.floor_c_slab": "Floor C Slab",
       "itemGroup.tablwsk_adventures_items": "LWSK Adventures Arsenal",
       "block.lwsk.office_wall_bottom_cracked": "Office Wall Bottom Cracked",
       "block.lwsk.lwsk_stone": "Stone",
+      "item.lwsk.lwsk_shears_red": "LWSK Shears",
       "block.lwsk.sublevel_wall_bottom": "Sublevel Wall Bottom",
       "block.lwsk.office_wall_middle_2": "Office Wall Middle",
+      "key.category.lwsk": "LWSK Keys",
       "block.lwsk.lwsk_dirt_block": "Dirt Block",
       "block.lwsk.office_wall_middle": "Office Wall Middle",
+      "block.lwsk.lwsk_stone_slab": "Stone Slab",
+      "block.lwsk.pine_log": "Pine Log",
       "block.lwsk.floor_a": "Floor A",
       "itemGroup.tablwsk_adventures_mc_blocks": "LWSK Adventures MCBlocks",
       "block.lwsk.floor_b": "Floor B",
@@ -531,10 +952,14 @@
       "block.lwsk.floor_d": "Floor D",
       "block.lwsk.office_wall_top_cracked": "Office Wall Top Cracked",
       "block.lwsk.lwsk_grass_block": "Grass Block",
+      "block.lwsk.c_4_explosive_half": "C4 Explosive",
       "block.lwsk.office_wall_bottom": "Office Wall Bottom",
+      "block.lwsk.lwsk_spruce_leaves": "LWSK Spruce Leaves",
       "block.lwsk.lwsk_dirt_stairs": "Dirt Stairs",
+      "key.lwsk.c_keybinding": "C Keybinding",
       "block.lwsk.blocks_logo": "Blocks Logo",
-      "block.lwsk.floor_b_slab": "Floor B Slab"
+      "block.lwsk.floor_b_slab": "Floor B Slab",
+      "block.lwsk.c_4_explosiveoff": "C4 Explosive"
     }
   },
   "foldersRoot": {

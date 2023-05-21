@@ -6,6 +6,13 @@
         "1": "c4_secondary"
       },
       "name": "default"
+    },
+    "disarm": {
+      "map": {
+        "0": "c4_main",
+        "1": "c4_secondary_disarm"
+      },
+      "name": "disarm"
     }
   }
 }
