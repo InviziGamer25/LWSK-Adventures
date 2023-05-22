@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lwsk:block/broken_lamp",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "lwsk:block/broken_lamp"
+    },
+    "axis=z": {
+      "model": "lwsk:block/broken_lamp",
+      "x": 90
+    }
+  }
+}

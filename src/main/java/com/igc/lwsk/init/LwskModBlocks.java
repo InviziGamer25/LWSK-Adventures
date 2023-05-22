@@ -24,11 +24,20 @@ import com.igc.lwsk.block.OfficeWallMiddleBlock;
 import com.igc.lwsk.block.OfficeWallMiddle2Block;
 import com.igc.lwsk.block.OfficeWallBottomCrackedBlock;
 import com.igc.lwsk.block.OfficeWallBottomBlock;
+import com.igc.lwsk.block.OfficePCBlock;
+import com.igc.lwsk.block.OfficeDoorBlock;
+import com.igc.lwsk.block.OfficeDeskBlock;
+import com.igc.lwsk.block.OfficeChairBlock;
+import com.igc.lwsk.block.LampLitBlock;
+import com.igc.lwsk.block.LWSKTallFernTopBlock;
+import com.igc.lwsk.block.LWSKTallFernBottomBlock;
+import com.igc.lwsk.block.LWSKSweetBerriesBushBlock;
 import com.igc.lwsk.block.LWSKStoneStairsBlock;
 import com.igc.lwsk.block.LWSKStoneSlabBlock;
 import com.igc.lwsk.block.LWSKStoneBlock;
 import com.igc.lwsk.block.LWSKSpruceLeavesBlock;
 import com.igc.lwsk.block.LWSKGrassBlockBlock;
+import com.igc.lwsk.block.LWSKFernBlock;
 import com.igc.lwsk.block.LWSKDirtStairsBlock;
 import com.igc.lwsk.block.LWSKDirtSlabBlock;
 import com.igc.lwsk.block.LWSKDirtBlockBlock;
@@ -47,6 +56,7 @@ import com.igc.lwsk.block.FloorABlock;
 import com.igc.lwsk.block.C4ExplosiveoffBlock;
 import com.igc.lwsk.block.C4ExplosiveOnBlock;
 import com.igc.lwsk.block.C4ExplosiveHalfBlock;
+import com.igc.lwsk.block.BrokenLampBlock;
 import com.igc.lwsk.block.BlocksLogoBlock;
 import com.igc.lwsk.LwskMod;
 
@@ -86,6 +96,16 @@ public class LwskModBlocks {
 	public static final RegistryObject<Block> C_4_EXPLOSIVEOFF = REGISTRY.register("c_4_explosiveoff", () -> new C4ExplosiveoffBlock());
 	public static final RegistryObject<Block> C_4_EXPLOSIVE_ON = REGISTRY.register("c_4_explosive_on", () -> new C4ExplosiveOnBlock());
 	public static final RegistryObject<Block> C_4_EXPLOSIVE_HALF = REGISTRY.register("c_4_explosive_half", () -> new C4ExplosiveHalfBlock());
+	public static final RegistryObject<Block> LWSK_FERN = REGISTRY.register("lwsk_fern", () -> new LWSKFernBlock());
+	public static final RegistryObject<Block> LWSK_TALL_FERN_BOTTOM = REGISTRY.register("lwsk_tall_fern_bottom", () -> new LWSKTallFernBottomBlock());
+	public static final RegistryObject<Block> LWSK_TALL_FERN_TOP = REGISTRY.register("lwsk_tall_fern_top", () -> new LWSKTallFernTopBlock());
+	public static final RegistryObject<Block> LWSK_SWEET_BERRIES_BUSH = REGISTRY.register("lwsk_sweet_berries_bush", () -> new LWSKSweetBerriesBushBlock());
+	public static final RegistryObject<Block> OFFICE_DOOR = REGISTRY.register("office_door", () -> new OfficeDoorBlock());
+	public static final RegistryObject<Block> LAMP_LIT = REGISTRY.register("lamp_lit", () -> new LampLitBlock());
+	public static final RegistryObject<Block> BROKEN_LAMP = REGISTRY.register("broken_lamp", () -> new BrokenLampBlock());
+	public static final RegistryObject<Block> OFFICE_DESK = REGISTRY.register("office_desk", () -> new OfficeDeskBlock());
+	public static final RegistryObject<Block> OFFICE_CHAIR = REGISTRY.register("office_chair", () -> new OfficeChairBlock());
+	public static final RegistryObject<Block> OFFICE_PC = REGISTRY.register("office_pc", () -> new OfficePCBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -99,6 +119,16 @@ public class LwskModBlocks {
 			C4ExplosiveoffBlock.registerRenderLayer();
 			C4ExplosiveOnBlock.registerRenderLayer();
 			C4ExplosiveHalfBlock.registerRenderLayer();
+			LWSKFernBlock.registerRenderLayer();
+			LWSKTallFernBottomBlock.registerRenderLayer();
+			LWSKTallFernTopBlock.registerRenderLayer();
+			LWSKSweetBerriesBushBlock.registerRenderLayer();
+			OfficeDoorBlock.registerRenderLayer();
+			LampLitBlock.registerRenderLayer();
+			BrokenLampBlock.registerRenderLayer();
+			OfficeDeskBlock.registerRenderLayer();
+			OfficeChairBlock.registerRenderLayer();
+			OfficePCBlock.registerRenderLayer();
 		}
 	}
 }

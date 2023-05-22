@@ -1,0 +1,9 @@
+{
+  "parent": "lwsk:custom/lamp",
+  "textures": {
+    "all": "lwsk:blocks/yellow_stained_glass",
+    "particle": "lwsk:blocks/yellow_stained_glass",
+    "0": "lwsk:blocks/anvil",
+    "1": "lwsk:blocks/yellow_stained_glass"
+  }
+}

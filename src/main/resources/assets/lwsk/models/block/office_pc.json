@@ -1,0 +1,8 @@
+{
+  "parent": "lwsk:custom/pc",
+  "textures": {
+    "all": "lwsk:blocks/pc",
+    "particle": "lwsk:blocks/pc",
+    "0": "lwsk:blocks/pc"
+  }
+}

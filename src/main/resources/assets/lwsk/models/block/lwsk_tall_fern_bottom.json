@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "lwsk:blocks/large_fern_bottom",
+    "particle": "lwsk:blocks/large_fern_bottom"
+  }
+}
