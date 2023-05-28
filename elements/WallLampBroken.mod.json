@@ -2,26 +2,25 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "dirt",
-    "textureTop": "dirt",
-    "textureLeft": "dirt",
-    "textureFront": "dirt",
-    "textureRight": "dirt",
-    "textureBack": "dirt",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 0,
-    "enablePitch": false,
+    "texture": "redstone_lamp",
+    "textureTop": "redstone_lamp_on",
+    "textureLeft": "redstone_lamp_on",
+    "textureFront": "redstone_lamp_on",
+    "textureRight": "redstone_lamp_on",
+    "textureBack": "redstone_lamp_on",
+    "renderType": 2,
+    "customModelName": "wall_light:broken",
+    "rotationMode": 1,
+    "enablePitch": true,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Slab",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -34,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Dirt Slab",
+    "name": "Wall Lamp Broken",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
-      "value": "CUSTOM:LWSKAdventuresMCBlocks"
+      "value": "CUSTOM:LWSKAdventuresBuilding"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -51,11 +50,11 @@
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": true,
+    "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "EARTH"
+      "value": "REDSTONE_LIGHT"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -80,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "GLASS"
     },
     "breakSound": {
       "value": ""

@@ -1,0 +1,10 @@
+{
+  "parent": "lwsk:custom/wall_light",
+  "textures": {
+    "all": "lwsk:blocks/redstone_lamp",
+    "particle": "lwsk:blocks/redstone_lamp",
+    "0": "lwsk:blocks/iron_block",
+    "1": "lwsk:blocks/redstone_lamp",
+    "2": "lwsk:blocks/broken_lamp"
+  }
+}

@@ -68,6 +68,8 @@ public class LwskModItems {
 	public static final RegistryObject<Item> OFFICE_DESK = block(LwskModBlocks.OFFICE_DESK, LwskModTabs.TAB_LWSK_ADVENTURES_BUILDING);
 	public static final RegistryObject<Item> OFFICE_CHAIR = block(LwskModBlocks.OFFICE_CHAIR, LwskModTabs.TAB_LWSK_ADVENTURES_BUILDING);
 	public static final RegistryObject<Item> OFFICE_PC = block(LwskModBlocks.OFFICE_PC, LwskModTabs.TAB_LWSK_ADVENTURES_BUILDING);
+	public static final RegistryObject<Item> WALL_LAMP_LIT = block(LwskModBlocks.WALL_LAMP_LIT, LwskModTabs.TAB_LWSK_ADVENTURES_BUILDING);
+	public static final RegistryObject<Item> WALL_LAMP_BROKEN = block(LwskModBlocks.WALL_LAMP_BROKEN, LwskModTabs.TAB_LWSK_ADVENTURES_BUILDING);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

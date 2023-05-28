@@ -14,6 +14,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import com.igc.lwsk.block.WallLampLitBlock;
+import com.igc.lwsk.block.WallLampBrokenBlock;
 import com.igc.lwsk.block.SublevelWallMiddleBlock;
 import com.igc.lwsk.block.SublevelWallBottomBlock;
 import com.igc.lwsk.block.PineLogBlock;
@@ -106,6 +108,8 @@ public class LwskModBlocks {
 	public static final RegistryObject<Block> OFFICE_DESK = REGISTRY.register("office_desk", () -> new OfficeDeskBlock());
 	public static final RegistryObject<Block> OFFICE_CHAIR = REGISTRY.register("office_chair", () -> new OfficeChairBlock());
 	public static final RegistryObject<Block> OFFICE_PC = REGISTRY.register("office_pc", () -> new OfficePCBlock());
+	public static final RegistryObject<Block> WALL_LAMP_LIT = REGISTRY.register("wall_lamp_lit", () -> new WallLampLitBlock());
+	public static final RegistryObject<Block> WALL_LAMP_BROKEN = REGISTRY.register("wall_lamp_broken", () -> new WallLampBrokenBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -129,6 +133,8 @@ public class LwskModBlocks {
 			OfficeDeskBlock.registerRenderLayer();
 			OfficeChairBlock.registerRenderLayer();
 			OfficePCBlock.registerRenderLayer();
+			WallLampLitBlock.registerRenderLayer();
+			WallLampBrokenBlock.registerRenderLayer();
 		}
 	}
 }

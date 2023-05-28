@@ -737,37 +737,6 @@
       }
     },
     {
-      "name": "CKeybindingOnKeyPressed",
-      "type": "procedure",
-      "sortid": 93,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_keybinding_on_key_pressed",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/procedures/CKeybindingOnKeyPressedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CKeybinding",
-      "type": "keybind",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_keybinding",
-      "metadata": {
-        "files": [
-          "src/main/java/com/igc/lwsk/network/CKeybindingMessage.java"
-        ]
-      }
-    },
-    {
       "name": "C4ExplosiveoffOnBlockRightClicked",
       "type": "procedure",
       "sortid": 94,
@@ -1075,6 +1044,100 @@
           "src/main/resources/assets/lwsk/models/block/office_pc.json"
         ]
       }
+    },
+    {
+      "name": "LampLitOnBlockHitByProjectile",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_lit_on_block_hit_by_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/procedures/LampLitOnBlockHitByProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WallLampLit",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_lamp_lit",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/block/WallLampLitBlock.java",
+          "src/main/resources/assets/lwsk/models/block/wall_lamp_lit.json",
+          "src/main/resources/assets/lwsk/models/item/wall_lamp_lit.json",
+          "src/main/resources/assets/lwsk/blockstates/wall_lamp_lit.json"
+        ]
+      }
+    },
+    {
+      "name": "WallLampBroken",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_lamp_broken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/models/block/wall_lamp_broken.json",
+          "src/main/resources/assets/lwsk/models/item/wall_lamp_broken.json",
+          "src/main/resources/assets/lwsk/blockstates/wall_lamp_broken.json",
+          "src/main/java/com/igc/lwsk/block/WallLampBrokenBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WallLampLitOnBlockHitByProjectile",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_lamp_lit_on_block_hit_by_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/com/igc/lwsk/procedures/WallLampLitOnBlockHitByProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1095,7 +1158,6 @@
       "block.lwsk.office_wall_middle": "Office Wall Middle",
       "block.lwsk.c_4_explosive_half": "C4 Explosive",
       "block.lwsk.lwsk_spruce_leaves": "LWSK Spruce Leaves",
-      "key.lwsk.c_keybinding": "C Keybinding",
       "block.lwsk.lwsk_tall_fern_top": "Tall Fern Top",
       "block.lwsk.lwsk_tall_fern_bottom": "Tall Fern Bottom",
       "block.lwsk.c_4_explosiveoff": "C4 Explosive",
@@ -1112,6 +1174,8 @@
       "block.lwsk.floor_a_slab": "Floor A Slab",
       "block.lwsk.c_4_explosive_on": "C4 Explosive",
       "block.lwsk.office_wall_bottom_cracked": "Office Wall Bottom Cracked",
+      "block.lwsk.wall_lamp_lit": "Wall Lamp",
+      "block.lwsk.wall_lamp_broken": "Wall Lamp Broken",
       "block.lwsk.lwsk_sweet_berries_bush": "Sweet Berries Bush",
       "block.lwsk.broken_lamp": "Broken Lamp",
       "key.category.lwsk": "LWSK Keys",

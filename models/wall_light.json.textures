@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "broken": {
+      "map": {
+        "0": "iron_block",
+        "1": "redstone_lamp",
+        "2": "broken_lamp"
+      },
+      "name": "broken"
+    },
+    "default": {
+      "map": {
+        "0": "iron_block",
+        "1": "redstone_lamp_on",
+        "2": "yellow_stained_glass"
+      },
+      "name": "default"
+    }
+  }
+}

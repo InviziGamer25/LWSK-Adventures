@@ -55,6 +55,16 @@ public class OfficeDeskBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(-16, 0, 0, 32, 16, 16);
+			case NORTH -> box(-16, 0, 0, 32, 16, 16);
+			case EAST -> box(0, 0, -16, 16, 16, 32);
+			case WEST -> box(0, 0, -16, 16, 16, 32);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
 	}

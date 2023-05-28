@@ -1,5 +1,5 @@
 {
-  "parent": "lwsk:custom/pc",
+  "parent": "lwsk:custom/pc2",
   "textures": {
     "all": "lwsk:blocks/pc",
     "particle": "lwsk:blocks/pc",
