@@ -16,16 +16,19 @@ import net.minecraft.world.level.block.Block;
 
 import com.igc.lwsk.block.WallLampLitBlock;
 import com.igc.lwsk.block.WallLampBrokenBlock;
+import com.igc.lwsk.block.VentBlockBlock;
 import com.igc.lwsk.block.SublevelWallMiddleBlock;
 import com.igc.lwsk.block.SublevelWallBottomBlock;
 import com.igc.lwsk.block.PineLogBlock;
 import com.igc.lwsk.block.OfficeWallTopCrackedBlock;
 import com.igc.lwsk.block.OfficeWallTopBlock;
+import com.igc.lwsk.block.OfficeWallStairsBlock;
 import com.igc.lwsk.block.OfficeWallMiddleCrackedBlock;
 import com.igc.lwsk.block.OfficeWallMiddleBlock;
 import com.igc.lwsk.block.OfficeWallMiddle2Block;
 import com.igc.lwsk.block.OfficeWallBottomCrackedBlock;
 import com.igc.lwsk.block.OfficeWallBottomBlock;
+import com.igc.lwsk.block.OfficeWallBlock;
 import com.igc.lwsk.block.OfficePCBlock;
 import com.igc.lwsk.block.OfficeDoorBlock;
 import com.igc.lwsk.block.OfficeDeskBlock;
@@ -110,6 +113,9 @@ public class LwskModBlocks {
 	public static final RegistryObject<Block> OFFICE_PC = REGISTRY.register("office_pc", () -> new OfficePCBlock());
 	public static final RegistryObject<Block> WALL_LAMP_LIT = REGISTRY.register("wall_lamp_lit", () -> new WallLampLitBlock());
 	public static final RegistryObject<Block> WALL_LAMP_BROKEN = REGISTRY.register("wall_lamp_broken", () -> new WallLampBrokenBlock());
+	public static final RegistryObject<Block> VENT_BLOCK = REGISTRY.register("vent_block", () -> new VentBlockBlock());
+	public static final RegistryObject<Block> OFFICE_WALL_STAIRS = REGISTRY.register("office_wall_stairs", () -> new OfficeWallStairsBlock());
+	public static final RegistryObject<Block> OFFICE_WALL = REGISTRY.register("office_wall", () -> new OfficeWallBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -130,11 +136,11 @@ public class LwskModBlocks {
 			OfficeDoorBlock.registerRenderLayer();
 			LampLitBlock.registerRenderLayer();
 			BrokenLampBlock.registerRenderLayer();
-			OfficeDeskBlock.registerRenderLayer();
 			OfficeChairBlock.registerRenderLayer();
 			OfficePCBlock.registerRenderLayer();
 			WallLampLitBlock.registerRenderLayer();
 			WallLampBrokenBlock.registerRenderLayer();
+			OfficeWallBlock.registerRenderLayer();
 		}
 	}
 }

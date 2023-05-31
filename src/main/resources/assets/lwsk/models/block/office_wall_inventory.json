@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "lwsk:blocks/wall_a_top",
+    "particle": "lwsk:blocks/wall_a_top"
+  }
+}

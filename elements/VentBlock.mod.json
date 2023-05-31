@@ -2,15 +2,15 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "gray_stained_glass",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "lamp:broken",
-    "rotationMode": 5,
+    "texture": "furnace_top",
+    "textureTop": "furnace_top",
+    "textureLeft": "furnace_top",
+    "textureFront": "furnace_top",
+    "textureRight": "furnace_top",
+    "textureBack": "furnace_top",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -18,9 +18,9 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,12 +33,12 @@
         "subtract": false
       }
     ],
-    "name": "Broken Lamp",
+    "name": "Vent Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:LWSKAdventuresBuilding"
     },
@@ -52,9 +52,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
-      "value": "REDSTONE_LIGHT"
+      "value": "IRON"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -76,10 +76,10 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""

@@ -2,25 +2,26 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "gray_stained_glass",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "lamp:broken",
-    "rotationMode": 5,
+    "texture": "wall_a_top",
+    "textureTop": "wall_a_top",
+    "textureLeft": "wall_a_top",
+    "textureFront": "wall_a_top",
+    "textureRight": "wall_a_top",
+    "textureBack": "wall_a_top",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Wall",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,12 +34,12 @@
         "subtract": false
       }
     ],
-    "name": "Broken Lamp",
+    "name": "Office Wall",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:LWSKAdventuresBuilding"
     },
@@ -54,7 +55,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "REDSTONE_LIGHT"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -76,10 +77,10 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""

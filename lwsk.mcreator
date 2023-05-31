@@ -1138,6 +1138,59 @@
           }
         ]
       }
+    },
+    {
+      "name": "VentBlock",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/models/block/vent_block.json",
+          "src/main/java/com/igc/lwsk/block/VentBlockBlock.java",
+          "src/main/resources/assets/lwsk/models/item/vent_block.json",
+          "src/main/resources/assets/lwsk/blockstates/vent_block.json"
+        ]
+      }
+    },
+    {
+      "name": "OfficeWallStairs",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "office_wall_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/models/item/office_wall_stairs.json",
+          "src/main/resources/assets/lwsk/models/block/office_wall_stairs.json",
+          "src/main/resources/assets/lwsk/models/block/office_wall_stairs_outer.json",
+          "src/main/resources/assets/lwsk/blockstates/office_wall_stairs.json",
+          "src/main/java/com/igc/lwsk/block/OfficeWallStairsBlock.java",
+          "src/main/resources/assets/lwsk/models/block/office_wall_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "OfficeWall",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "office_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk/blockstates/office_wall.json",
+          "src/main/resources/assets/lwsk/models/item/office_wall.json",
+          "src/main/resources/assets/lwsk/models/block/office_wall_post.json",
+          "src/main/java/com/igc/lwsk/block/OfficeWallBlock.java",
+          "src/main/resources/assets/lwsk/models/block/office_wall_side_tall.json",
+          "src/main/resources/assets/lwsk/models/block/office_wall.json",
+          "src/main/resources/assets/lwsk/models/block/office_wall_inventory.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1149,11 +1202,13 @@
       "item.lwsk.lwsk_shears_blue": "Shears",
       "block.lwsk.sublevel_wall_middle": "Sublevel Wall Middle",
       "block.lwsk.office_wall_middle_cracked": "Office Wall Middle Cracked",
+      "block.lwsk.office_wall_stairs": "Office Wall Stairs",
       "block.lwsk.floor_c_slab": "Floor C Slab",
       "itemGroup.tablwsk_adventures_items": "LWSK Adventures Arsenal",
       "block.lwsk.lwsk_stone": "Stone",
       "item.lwsk.lwsk_shears_red": "LWSK Shears",
       "block.lwsk.sublevel_wall_bottom": "Sublevel Wall Bottom",
+      "block.lwsk.vent_block": "Vent Block",
       "block.lwsk.office_wall_middle_2": "Office Wall Middle",
       "block.lwsk.office_wall_middle": "Office Wall Middle",
       "block.lwsk.c_4_explosive_half": "C4 Explosive",
@@ -1180,6 +1235,7 @@
       "block.lwsk.broken_lamp": "Broken Lamp",
       "key.category.lwsk": "LWSK Keys",
       "block.lwsk.lwsk_dirt_block": "Dirt Block",
+      "block.lwsk.office_wall": "Office Wall",
       "block.lwsk.lwsk_stone_slab": "Stone Slab",
       "block.lwsk.pine_log": "Pine Log",
       "block.lwsk.floor_a": "Floor A",

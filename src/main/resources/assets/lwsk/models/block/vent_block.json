@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lwsk:blocks/furnace_top",
+    "up": "lwsk:blocks/furnace_top",
+    "north": "lwsk:blocks/furnace_top",
+    "east": "lwsk:blocks/furnace_top",
+    "south": "lwsk:blocks/furnace_top",
+    "west": "lwsk:blocks/furnace_top",
+    "particle": "lwsk:blocks/furnace_top"
+  }
+}
