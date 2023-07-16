@@ -43,7 +43,7 @@ LWSK Adventures is a Map and Mod that comes with a bunch of missions with puzzle
 [IGC Official Patreon](https://www.patreon.com/incredible_games_corporation?fan_landing=true)
 **Youtube Channels**
 [IGC Official Channel](https://www.youtube.com/channel/UCrTssLRIdQk8ferz62P0S7g)
-[DF Games Channel](https://www.youtube.com/channel/UCTXI_f3gO6TKPiJjsqHmGHA)
+[LWSK Channel](https://www.youtube.com/channel/UCe02OlHHEXECHqBzcqTFeWQ)
 
 # Tutorials
 **How to get access to the mod**
